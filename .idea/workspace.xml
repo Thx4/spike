@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="602176fb-9351-4e64-ad88-26d16d4f84f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/.m2/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Yc1xS3Y89VYjewyZGnTFmEfGv5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RunManager">
+    <configuration name="SpikeApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="spike" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.donguggu.spike.SpikeApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="602176fb-9351-4e64-ad88-26d16d4f84f7" name="Default Changelist" comment="" />
+      <created>1583227316281</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583227316281</updated>
+      <workItem from="1583227325717" duration="580000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="283" y="214" width="447" height="513" key="FileChooserDialogImpl" timestamp="1583227638840">
+      <screen x="67" y="27" width="889" height="890" />
+    </state>
+    <state x="283" y="214" width="447" height="513" key="FileChooserDialogImpl/67.27.889.890@67.27.889.890" timestamp="1583227638840" />
+    <state x="364" y="366" key="Github.ShareDialog" timestamp="1583228024417">
+      <screen x="67" y="27" width="889" height="890" />
+    </state>
+    <state x="364" y="366" key="Github.ShareDialog/67.27.889.890@67.27.889.890" timestamp="1583228024417" />
+    <state x="117" y="177" width="779" height="587" key="Github.UntrackedFilesDialog" timestamp="1583228038637">
+      <screen x="67" y="27" width="889" height="890" />
+    </state>
+    <state x="117" y="177" width="779" height="587" key="Github.UntrackedFilesDialog/67.27.889.890@67.27.889.890" timestamp="1583228038637" />
+    <state x="106" y="207" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1583227753572">
+      <screen x="67" y="27" width="889" height="890" />
+    </state>
+    <state x="106" y="207" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.889.890@67.27.889.890" timestamp="1583227753572" />
+    <state x="648" y="303" key="com.intellij.ide.util.TipDialog" timestamp="1583227346097">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state x="648" y="303" key="com.intellij.ide.util.TipDialog/67.27.1851.899@67.27.1851.899" timestamp="1583227346097" />
+  </component>
+</project>
