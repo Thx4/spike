@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="602176fb-9351-4e64-ad88-26d16d4f84f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -110,7 +109,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583227316281</updated>
       <workItem from="1583227325717" duration="4992000" />
-      <workItem from="1583314757157" duration="12057000" />
+      <workItem from="1583314757157" duration="13687000" />
     </task>
     <servers />
   </component>
@@ -155,13 +154,18 @@
       <screen x="67" y="27" width="889" height="890" />
     </state>
     <state x="241" y="196" width="530" height="549" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/67.27.889.890@67.27.889.890" timestamp="1583230460217" />
+    <state x="557" y="70" width="860" height="811" key="CommitChangelistDialog2" timestamp="1583331280306">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state x="557" y="70" width="860" height="811" key="CommitChangelistDialog2/67.27.1851.899@67.27.1851.899" timestamp="1583331280306" />
     <state x="283" y="214" width="447" height="513" key="FileChooserDialogImpl" timestamp="1583322847662">
       <screen x="67" y="27" width="889" height="890" />
     </state>
     <state x="283" y="214" width="447" height="513" key="FileChooserDialogImpl/67.27.889.890@67.27.889.890" timestamp="1583322847662" />
-    <state x="364" y="366" key="Github.ShareDialog" timestamp="1583228024417">
-      <screen x="67" y="27" width="889" height="890" />
+    <state x="685" y="369" width="294" height="290" key="Github.ShareDialog" timestamp="1583331268489">
+      <screen x="67" y="27" width="1851" height="899" />
     </state>
+    <state x="685" y="369" width="294" height="290" key="Github.ShareDialog/67.27.1851.899@67.27.1851.899" timestamp="1583331268489" />
     <state x="364" y="366" key="Github.ShareDialog/67.27.889.890@67.27.889.890" timestamp="1583228024417" />
     <state x="117" y="177" width="779" height="587" key="Github.UntrackedFilesDialog" timestamp="1583228038637">
       <screen x="67" y="27" width="889" height="890" />
@@ -183,6 +187,10 @@
       <screen x="67" y="27" width="1851" height="899" />
     </state>
     <state x="268" y="313" key="com.intellij.ide.util.TipDialog/67.27.1851.899@67.27.1851.899" timestamp="1583315216439" />
+    <state x="760" y="395" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583331287671">
+      <screen x="67" y="27" width="1851" height="899" />
+    </state>
+    <state x="760" y="395" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/67.27.1851.899@67.27.1851.899" timestamp="1583331287671" />
     <state x="655" y="219" width="672" height="678" key="search.everywhere.popup" timestamp="1583228941090">
       <screen x="67" y="27" width="1851" height="899" />
     </state>
