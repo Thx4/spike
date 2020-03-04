@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="spike@118.25.197.79" uuid="ab4943b2-5cdf-453a-ba01-a914f8ea6222">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://118.25.197.79:3306/spike?useUnicode=true&amp;characterEncoding=utf8</jdbc-url>
+    </data-source>
+  </component>
+</project>
