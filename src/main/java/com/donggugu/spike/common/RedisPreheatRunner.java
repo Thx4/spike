@@ -1,9 +1,9 @@
-package com.donguggu.spike.common;
+package com.donggugu.spike.common;
 
-import com.donguggu.spike.common.stockwithredis.RedisKeysConstant;
-import com.donguggu.spike.common.utils.RedisPoolUtil;
-import com.donguggu.spike.pojo.Stock;
-import com.donguggu.spike.service.StockService;
+import com.donggugu.spike.common.utils.RedisPoolUtil;
+import com.donggugu.spike.common.stockwithredis.RedisKeysConstant;
+import com.donggugu.spike.pojo.Stock;
+import com.donggugu.spike.service.StockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
@@ -15,6 +15,7 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class RedisPreheatRunner implements ApplicationRunner {
+
     @Autowired
     private StockService stockService;
 

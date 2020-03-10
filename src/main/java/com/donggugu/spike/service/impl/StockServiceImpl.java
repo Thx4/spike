@@ -1,8 +1,8 @@
-package com.donguggu.spike.service.impl;
+package com.donggugu.spike.service.impl;
 
-import com.donguggu.spike.dao.StockMapper;
-import com.donguggu.spike.pojo.Stock;
-import com.donguggu.spike.service.StockService;
+import com.donggugu.spike.dao.StockMapper;
+import com.donggugu.spike.pojo.Stock;
+import com.donggugu.spike.service.StockService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

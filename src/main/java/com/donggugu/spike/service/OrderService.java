@@ -1,6 +1,6 @@
-package com.donguggu.spike.service;
+package com.donggugu.spike.service;
 
-import com.donguggu.spike.pojo.Stock;
+import com.donggugu.spike.pojo.Stock;
 
 public interface OrderService {
 

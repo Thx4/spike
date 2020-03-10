@@ -1,7 +1,7 @@
-package com.donguggu.spike.common.limit;
+package com.donggugu.spike.common.limit;
 
-import com.donguggu.spike.common.utils.RedisPool;
-import com.donguggu.spike.common.utils.ScriptUtil;
+import com.donggugu.spike.common.utils.RedisPool;
+import com.donggugu.spike.common.utils.ScriptUtil;
 import lombok.extern.slf4j.Slf4j;
 import redis.clients.jedis.Jedis;
 

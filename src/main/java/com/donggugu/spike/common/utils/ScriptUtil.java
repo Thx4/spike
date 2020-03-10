@@ -1,4 +1,4 @@
-package com.donguggu.spike.common.utils;
+package com.donggugu.spike.common.utils;
 
 import java.io.BufferedReader;
 import java.io.IOException;

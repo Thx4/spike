@@ -1,4 +1,4 @@
-package com.donguggu.spike.pojo;
+package com.donggugu.spike.pojo;
 
 
 import lombok.Getter;

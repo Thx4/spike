@@ -1,9 +1,11 @@
-package com.donguggu.spike.dao;
+package com.donggugu.spike.dao;
 
-import com.donguggu.spike.pojo.StockOrder;
+import com.donggugu.spike.pojo.StockOrder;
 import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Update;
 
+@Mapper
 public interface StockOrderMapper {
     @Insert("INSERT INTO stock_order (id,t sid, name, create_time) VALUES" +
             "(#{id}, #{sid}, #{name}, #{createTime}")

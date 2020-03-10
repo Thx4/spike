@@ -1,6 +1,6 @@
-package com.donguggu.spike.dao;
+package com.donggugu.spike.dao;
 
-import com.donguggu.spike.pojo.Stock;
+import com.donggugu.spike.pojo.Stock;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
@@ -22,11 +22,20 @@ public interface StockMapper {
     @Select("SELECT * FROM stock WHERE id = #{id}")
     Stock selectByPrimaryKey(@Param("id") int id);
 
+    /**
+     * @param stock
+     * @return
+     */
     @Update("UPDATE stock SET count = #{count}, " +
             "name = #{name}, sale = #{sale}, version = #{version}" +
             "WHERE id = #{id}")
     int updateByPrimaryKeySelective(Stock stock);
 
+    /**
+     * @param stock
+     *
+     * @return
+     */
     @Update("UPDATE stock SET count = count - 1, sale = sale + 1, version = version+ 1 " +
             "WHERE id = #{id} AND version = #{version}")
     int updateByOptimistic(Stock stock);
