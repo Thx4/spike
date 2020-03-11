@@ -11,26 +11,21 @@ public class RedisPool {
 
     private static JedisPool pool;
 
-    @Value("${redis.maxTotal}")
     private static Integer maxTotal = 300;
 
-    @Value("${redis.maxIdle}")
     private static Integer maxIdle = 100;
 
-    @Value("${redis.maxWait}")
     private static Integer maxWait = 10000;
 
-    @Value("${redis.testOnBorrow}")
     private static Boolean testOnBorrow = true;
 
-    @Value("${spring.redis.host}")
-    private static String redisIP;
+    private static String redisIP = "118.25.197.79";
 
-    @Value("${spring.redis.port}")
-    private static Integer redisPort;
+    private static Integer redisPort = 6379;
 
-    @Value("${spring.redis.password}")
-    private static String password;
+    private static String password = "dgg233";
+
+    private static Integer timeout = 2000;
 
     private static void initPool() {
         JedisPoolConfig config = new JedisPoolConfig();
@@ -41,7 +36,7 @@ public class RedisPool {
         config.setBlockWhenExhausted(true);
         config.setMaxWaitMillis(maxWait);
 
-        pool = new JedisPool(config, redisIP, redisPort, 1000 * 2, password);
+        pool = new JedisPool(config, redisIP, redisPort, timeout, password);
     }
 
     static {

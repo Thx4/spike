@@ -13,7 +13,6 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @Slf4j
 @EnableTransactionManagement
 @EnableKafka
-@MapperScan("com.donggugu.spike")
 @SpringBootApplication
 public class SpikeApplication {
 

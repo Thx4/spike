@@ -9,6 +9,8 @@ import org.springframework.boot.ApplicationArguments;
 import org.springframework.boot.ApplicationRunner;
 import org.springframework.stereotype.Component;
 
+import java.util.Optional;
+
 /**
  * cache pre heat
  * start after spring boot run
@@ -25,15 +27,15 @@ public class RedisPreheatRunner implements ApplicationRunner {
         Stock stock = stockService.getStockById(1);
 
         //delete old cache
-        RedisPoolUtil.del(RedisKeysConstant.STOCK_COUNT + stock.getCount());
-        RedisPoolUtil.del(RedisKeysConstant.STOCK_SALE + stock.getSale());
-        RedisPoolUtil.del(RedisKeysConstant.STOCK_VERSION + stock.getVersion());
+        RedisPoolUtil.del(RedisKeysConstant.STOCK_COUNT + Optional.ofNullable( stock.getCount()));
+        RedisPoolUtil.del(RedisKeysConstant.STOCK_SALE + Optional.ofNullable(stock.getSale()));
+        RedisPoolUtil.del(RedisKeysConstant.STOCK_VERSION + Optional.ofNullable(stock.getVersion()));
 
         //cache pre heat
         int sid = stock.getId();
-        RedisPoolUtil.set(RedisKeysConstant.STOCK_COUNT + sid, String.valueOf(stock.getCount()));
-        RedisPoolUtil.set(RedisKeysConstant.STOCK_SALE + sid, String.valueOf(stock.getSale()));
-        RedisPoolUtil.set(RedisKeysConstant.STOCK_VERSION + sid, String.valueOf(stock.getVersion()));
+        RedisPoolUtil.set(RedisKeysConstant.STOCK_COUNT + sid, String.valueOf(Optional.ofNullable( stock.getCount())));
+        RedisPoolUtil.set(RedisKeysConstant.STOCK_SALE + sid, String.valueOf(Optional.ofNullable(stock.getSale())));
+        RedisPoolUtil.set(RedisKeysConstant.STOCK_VERSION + sid, String.valueOf(Optional.ofNullable(stock.getVersion())));
     }
 
 }
